@@ -1,0 +1,45 @@
+#!/bin/bash
+# Flask script
+
+function pwd_func()
+{
+PWD=`pwd`
+echo "I am in $PWD"
+}
+
+function open_flask_app_func()
+{
+google-chrome http://127.0.0.1:5000/
+}
+
+
+function test_func()
+{
+echo "Running tests"
+cd ~/Pulpit/Projekty/Price_scraper_3/venv/bin
+source activate
+cd ..
+cd ..
+pytest -s -v
+}
+
+
+function flask_env_func()
+{
+test_func
+echo "Preparing Flask environment"
+cd ~/Pulpit/Projekty/Price_scraper_3/venv/bin
+source activate
+cd ..
+cd ..
+open_flask_app_func
+python price_scraper_app.py
+sleep 2
+xdotool key ctrl+r
+}
+
+
+flask_env_func
+
+
+

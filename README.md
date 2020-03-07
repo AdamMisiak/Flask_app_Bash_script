@@ -1,5 +1,5 @@
 # Flask script
->
+>Script created in Bash to run tests in pytest, activate venv, run Flask app and open Chrome web browser on http://127.0.0.1:5000/. Site will be also refresh after 2 sec.
 
 ## Table of contents
 * [Technologies](#technologies)
@@ -7,12 +7,11 @@
 * [Contact](#contact)
 
 ## Technologies
-* Python version: 3.7
-
+* Bash 5.0.3(1)-release
 
 ## Setup
-To run this project just open Calculator.py by your IDE and run the program.
-Then you should see a small window with some buttons.
+To run script you need to change path of your Flask app: "cd ~/Pulpit/Projekty/Price_scraper_3/venv/bin" in flask_env_func() function. To edit file type in Terminal: gedit Flask_script. You also need to type the name of your Flask app in: "python price_scraper_app.py" in flask_app_func() function. Your tests have to be done in pytest framework. To run script type in Terminal: bash Flask_script
+
 
 
 ## Contact

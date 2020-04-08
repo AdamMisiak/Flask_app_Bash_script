@@ -13,11 +13,16 @@ You also need to type the name of your Flask app in:
 ```
 "python price_scraper_app.py"
 ```
-in flask_app_func() function.\  Type in Terminal:
+in flask_app_func() function.
+Type in Terminal:
 ```
 bash Price scraper NAME_OF_FUNCTION
 ```
-to run fuction you have chosen.\  List of created functions:\  -run-venv\  -run-test\  -run-app\
+to run fuction you have chosen.
+List of created functions:
+-run-venv
+-run-test
+-run-app\
 
 
 ## Contact

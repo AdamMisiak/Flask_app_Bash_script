@@ -1,0 +1,48 @@
+#!/bin/bash
+# Price scraper
+
+
+function flask_env_func()
+{
+echo "Preparing Flask venv"
+cd ~/Pulpit/Projekty/Price_scraper_3/venv/bin
+source activate
+cd ..
+cd ..
+}
+
+
+function open_chrome_func()
+{
+google-chrome http://127.0.0.1:5000/
+sleep 2
+xdotool key ctrl+r
+}
+
+
+function test_func()
+{
+echo "Running tests"
+flask_env_func
+pytest -s -v
+}
+
+
+function flask_app_func()
+{
+echo "Running Flask app"
+flask_env_func
+python price_scraper_app.py
+}
+
+
+if [ "$1" == "run-venv" ] ; then
+	flask_env_func
+elif [ "$1" == "run-test" ] ; then
+	test_func
+elif [ "$1" == "run-app" ] ; then
+	flask_app_func
+else
+	flask_app_func
+fi
+

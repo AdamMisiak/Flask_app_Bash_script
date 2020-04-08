@@ -13,12 +13,11 @@ You also need to type the name of your Flask app in:
 ```
 "python price_scraper_app.py"
 ```
-in flask_app_func() function.
-Test are created using pytest framework. Type in Terminal:
+in flask_app_func() function.  Type in Terminal:
 ```
-bash Flask_script
+bash Price scraper NAME_OF_FUNCTION
 ```
-to run script.
+to run fuction you have chosen.  List of created functions:  -run-venv  -run-test  -run-app
 
 
 ## Contact

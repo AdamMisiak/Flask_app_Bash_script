@@ -20,9 +20,9 @@ bash Price scraper NAME_OF_FUNCTION
 ```
 to run fuction you have chosen.\
 List of created functions:\
--run-venv\
--run-test\
--run-app
+run-venv\
+run-test\
+run-app
 
 
 ## Contact

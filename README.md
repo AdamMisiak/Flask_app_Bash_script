@@ -9,7 +9,7 @@ Change path of your Flask app:
 "cd ~/YOURS_FLASK_APP_NAME/venv/bin"
 ```
 in flask_env_func() function.\
-Type the name of your Flask app .py file in:
+Change the name of Flask app .py file in:
 ```
 "python YOURS_FLASK_APP_NAME.py"
 ```
@@ -18,7 +18,7 @@ Type in Terminal:
 ```
 bash Site_runner NAME_OF_FUNCTION
 ```
-to run fuction you have chosen.\
+to run function you have chosen.\
 List of created functions:\
 run-venv\
 run-test\

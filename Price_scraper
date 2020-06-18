@@ -32,7 +32,7 @@ function flask_app_func()
 {
 echo "Running Flask app"
 flask_env_func
-python price_scraper_app.py
+python YOURS_FLASK_APP_NAME.py
 }
 
 

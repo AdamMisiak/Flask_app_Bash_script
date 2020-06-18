@@ -6,7 +6,7 @@
 ## Setup
 To run script you need to change path of your Flask app:
 ```
-"cd ~/Pulpit/Projekty/Price_scraper_3/venv/bin"
+"cd ~/YOURS_CATALOG_NAME/Price_scraper_bash_script/venv/bin"
 ```
 in flask_env_func() function.\
 You also need to type the name of your Flask app in:

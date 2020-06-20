@@ -5,7 +5,7 @@
 function flask_env_func()
 {
 echo "Preparing Flask venv"
-cd ~/YOURS_FLASK_APP_NAME/venv/bin
+cd ~/YOURS_FLASK_APP_PATH/venv/bin
 source activate
 cd ..
 cd ..
